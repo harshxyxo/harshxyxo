@@ -1,56 +1,202 @@
-# Hi there, I'm Harsh Sharma 👋
+  🧠 About Me
+name: Harsh Sharma
 
-I am a Full-Stack Developer and Machine Learning enthusiast, currently focusing on building scalable web applications and solving complex data problems. I love turning logical ideas into production-ready software with clean architecture and robust security.
+role: Final-Year B.Tech CSE Student (MIET, Batch of 2027)
 
----
+focus: Full-Stack Engineering + AI-Integrated Product Development
 
-## 🚀 What I Do
-- **Full-Stack Development:** Crafting responsive user interfaces and secure, optimized backend systems.
-- **Machine Learning:** Training intelligent models, preprocessing imbalanced datasets, and exploring modern deep learning architectures.
-- **Problem Solving:** Designing clean database schemas and seamless API integrations.
+strengths:
 
----
+  - Shipping production-ready full-stack apps end-to-end (frontend → backend → cloud deploy)
 
-## 🛠️ Tech Stack & Tools
+  - Integrating LLM APIs (Gemini) into real product workflows, not just demos
 
-### **Frontend & Design**
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+  - Self-taught: React, Node.js, Spring Boot, MongoDB, cloud deployment — zero formal training
 
-### **Backend & Database**
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=Prisma&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23ffca28.svg?style=for-the-badge&logo=firebase&logoColor=black)
+  - Clean git discipline: atomic commits, feature branches, recruiter-ready repos
 
-### **Machine Learning & Languages**
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+currently_open_to: [ "Internships", "SDE Roles", "Full-Stack Opportunities" ]
 
-### **Deployment & Workflow**
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+🛠️ Tech Stack
+Languages 
 
----
+ 
 
-## 📁 Featured Projects
+Frontend 
 
-### 🎵 Groovra — Premium Music Platform
-- **Description:** A comprehensive audio streaming application built with Next.js featuring integrated real-time data analytics.
-- **Key Features:** Google & Phone authentication via Firebase, secure Firestore integration, fully custom mobile bottom navigation bar, and advanced user listening insights.
-- **Tech:** React, Tailwind CSS, Firebase Auth, Vercel.
-- 🔗 **[Live Demo](https://music-app-web-fawn.vercel.app)** | **[Source Code](https://github.com/harshxyxo/music-app)**
+ 
 
-### 📊 Personal Expense Tracker
-- **Description:** A smart financial dashboard designed to track income, expenses, and monthly budgets.
-- **Key Features:** Clean data modeling, relational schema handling, and interactive statistical breakdowns.
-- **Tech:** Node.js, Prisma, Relational Database.
+Backend & Databases 
 
-### 🤖 Transformer Models & SMOTE Data Balancing
-- **Description:** Advanced Machine Learning project focused on handling data imbalance and implementing state-of-the-art architectures.
-- **Key Features:** Utilizing SMOTE techniques to resolve data classification skewness and working with deep learning Transformer models.
-- **Tech:** Python, Machine Learning Ecosystem.
+ 
 
----
+Cloud, DevOps & Tooling 
 
-## 📈 Learning & Growth
-- 🎓 **Education:** Pursuing B.Tech, engineering deep solutions and prepping for industry placements.
-- 🏅 **Google Developer Profile:** Actively expanding expertise and achieving milestones in modern cloud and developer tech.
+ 
 
----
+🤖 AI / ML Integration Expertise
+Domain
+Proficiency
+Details
+LLM API Integration
+⭐⭐⭐⭐☆
+Google Gemini API used for ATS resume scoring, keyword-gap detection, bullet-point rewriting
+ML Model Building
+⭐⭐⭐☆☆
+Transformer-based (ChemBERTa) toxicity classifier, SMOTE for class imbalance
+Applied Data Handling
+⭐⭐⭐⭐☆
+PDF/DOCX text extraction (PDFBox/POI), cheminformatics datasets
+Prompt Engineering
+⭐⭐⭐⭐☆
+Structured prompting for consistent, parseable AI outputs in production apps
 
-Connect with me to talk code, data pipelines, or cool web architectures!
+
+🚀 Featured Projects
+🎯 Placement & Study Tracker — AI-Powered Placement Prep Dashboard
+
+All-in-one placement preparation platform that replaces 5-6 scattered tools (LeetCode tracker, resume checker, application spreadsheet, interview notes) with a single AI-powered dashboard.
+
+
+
+
+
+Stack
+React, TypeScript, Tailwind CSS, Java Spring Boot, Spring Security (JWT + Google OAuth2), MongoDB Atlas, Google Gemini API
+Core Modules
+DSA topic-wise tracker · AI Resume Analyzer (ATS score + keyword gaps + bullet rewrite) · Company Application Kanban · Mock Interview Scheduler · Composite Analytics Dashboard
+AI Layer
+Gemini API for resume parsing, ATS scoring, and rewrite suggestions with PDF export of enhanced resume
+Security
+JWT-based auth + Google OAuth2 via Spring Security
+Repository
+github.com/harshxyxo
+
+
+Built as a full end-to-end system spanning a Spring Boot backend, secure auth, AI-integrated resume pipeline, and a Kanban-style tracker — demonstrating full-stack ownership beyond a typical CRUD app.
+
+💰 PaisaTrack — Smart Expense Tracker
+
+
+
+
+
+Stack
+React, TypeScript, Node.js, Express, MongoDB Atlas, Recharts
+Deployment
+Frontend on Vercel · REST API on Render · CI/CD via GitHub-to-Vercel pipeline
+Key Feature
+Custom "Guilt Score" algorithm analyzing 8+ spending categories for a real-time 0–100 financial health rating
+Highlights
+Split-bills module with auto-generated UPI deep links (GPay/PhonePe), 21-Day No-Spend Challenge with streak tracking, Recharts-powered analytics dashboard
+Repository
+github.com/harshxyxo
+
+
+Full MERN-stack system architected solo from scratch, deployed with zero-downtime automatic redeployment on every push to main.
+
+🎵 Groovra — Music Streaming Web App
+
+
+
+
+
+Stack
+HTML5, CSS3, Vanilla JavaScript, HTML5 Audio API
+Highlights
+Zero-dependency player — play/pause, real-time seek bar, volume control, next/prev navigation
+Engineering Focus
+Real-time playback sync via native currentTime/duration binding, fully responsive pure-Flexbox UI (no frameworks)
+Repository
+github.com/harshxyxo
+
+
+Demonstrates core JS/DOM fundamentals without relying on any external libraries.
+
+💼 Experience
+Independent Full-Stack Developer — Self-Directed Projects 2025 — Present
+
+Architected and shipped 2 production full-stack applications (PaisaTrack, Placement Tracker) across MERN and Java/Spring stacks
+Integrated third-party AI APIs (Gemini) into real product workflows for resume analysis and feedback generation
+Owned complete SDLC — design (Google Stitch), development (Antigravity IDE), deployment (Vercel/Render), and CI/CD setup
+
+React TypeScript Spring Boot MongoDB Gemini API CI/CD
+
+🏆 Achievements
+Recognition
+Details
+🚀 Production Delivery
+Shipped 2+ full-stack apps to live environments with globally accessible URLs
+🎨 Design-to-Code
+Independently replicated 10+ AI-generated UI screens in React/TypeScript at high fidelity
+🧑‍💻 Self-Taught Engineer
+Mastered React, Node.js, Spring Boot, MongoDB & cloud deployment with zero formal training
+🌿 Git Discipline
+Maintains atomic commits, feature branching, and recruiter-ready public repos
+
+
+📜 Certifications
+AWS 
+
+ 
+
+Oracle 
+
+ 
+
+NPTEL 
+
+ 
+
+Cisco 
+
+ 
+
+⚠️ Update these badges with your exact certification titles/links before publishing.
+
+🧩 Coding Profiles
+   
+
+📊 GitHub Analytics
+   
+🏆 GitHub Trophies
+
+
+📈 Contribution Activity
+
+
+🐍 Contribution Snake
+
+
+⚠️ Requires setting up the Platane/snk GitHub Action in a repo named harshxyxo/harshxyxo for this to render.
+
+🎯 Current Focus
+learning:
+
+  - Data Structures & Algorithms in Java (LeetCode)
+
+  - Advanced Spring Security patterns
+
+building:
+
+  - Placement & Study Tracker (AI-integrated dashboard)
+
+  - CardioSense AI (Transformer-based cardiac toxicity predictor)
+
+exploring:
+
+  - LLM-integrated product workflows
+
+  - System design fundamentals
+
+open_to:
+
+  - Internships
+
+  - SDE / Full-Stack roles
+
+📫 Connect With Me
+   
+
+"Shipping code that solves real problems — one commit at a time."
+
