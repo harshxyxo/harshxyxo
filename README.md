@@ -92,7 +92,7 @@ All-in-one placement preparation platform that replaces 5-6 scattered tools (Lee
 | **Core Modules** | DSA topic-wise tracker · AI Resume Analyzer (ATS score + keyword gaps + bullet rewrite) · Company Application Kanban · Mock Interview Scheduler · Composite Analytics Dashboard |
 | **AI Layer** | Gemini API for resume parsing, ATS scoring, and rewrite suggestions with PDF export of enhanced resume |
 | **Security** | JWT-based auth + Google OAuth2 via Spring Security |
-| **Repository** | [github.com/harshxyxo](https://placement-study-tracker.vercel.app/) |
+| **Repository** | [github.com/harshxyxo](https://github.com/harshxyxo/PlacementStudyTracker) |
 
 Built as a full end-to-end system spanning a Spring Boot backend, secure auth, AI-integrated resume pipeline, and a Kanban-style tracker — demonstrating full-stack ownership beyond a typical CRUD app.
 
