@@ -1,10 +1,20 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img alt="Harsh Sharma Banner" src="dark.svg" width="100%">
-</picture>
+<div align="center">
+
+<!-- Premium Animated Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Harsh%20Sharma&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20Integration%20%7C%20B.Tech%20CSE&descAlignY=55&descSize=18" width="100%"/>
+
+<!-- Animated Typing Text -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=650&lines=Frontend+Engineer;Full+Stack+Developer;AI-Integrated+App+Builder;Open+to+Internships" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/🎓-B.Tech%20CSE%20%40%20MIET-6D28D9?style=for-the-badge&labelColor=1e1b2e"/>
+<img src="https://img.shields.io/badge/📍-Meerut,%20India-7C3AED?style=for-the-badge&labelColor=1e1b2e"/>
+<img src="https://img.shields.io/badge/🎯-Batch%20of%202027-8B5CF6?style=for-the-badge&labelColor=1e1b2e"/>
+
+<br/><br/>
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=650&lines=Frontend+Engineer;Full+Stack+Developer;MERN+Stack+Developer;AI-Integrated+App+Builder;Open+to+Internships" alt="Typing SVG" />
 
 <br/>
