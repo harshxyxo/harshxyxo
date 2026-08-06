@@ -1,0 +1,153 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="accentL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#10B981"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;0%;100%" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="asciiGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glowBlueL" cx="20%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurpleL" cx="85%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlowL" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="cardClipL">
+      <rect x="0" y="0" width="1180" height="610" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClipL)">
+    <rect width="1180" height="610" fill="#FFFFFF"/>
+    <rect width="1180" height="610" fill="url(#glowBlueL)"/>
+    <rect width="1180" height="610" fill="url(#glowPurpleL)"/>
+
+    <circle cx="150" cy="120" r="2" fill="#06B6D4" opacity="0.5">
+      <animate attributeName="cy" values="120;100;120" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="80" r="2" fill="#7C3AED" opacity="0.5">
+      <animate attributeName="cy" values="80;60;80" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="450" r="2" fill="#10B981" opacity="0.5">
+      <animate attributeName="cy" values="450;430;450" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="500" r="2" fill="#06B6D4" opacity="0.4">
+      <animate attributeName="cy" values="500;480;500" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <rect x="3" y="3" width="1174" height="604" rx="25" fill="none" stroke="url(#accentL)" stroke-width="2" opacity="0.4"/>
+
+    <!-- LEFT PANEL -->
+    <g transform="translate(50,60)">
+      <rect width="400" height="490" rx="20" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)"/>
+      <g font-family="Fira Code, monospace" font-size="12" fill="url(#asciiGradL)" filter="url(#softGlowL)">
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,-4;0,0" dur="6s" repeatCount="indefinite" additive="sum"/>
+        <text x="30" y="50">      .:-=+*#%@@%#*+=-:.</text>
+        <text x="30" y="68">   .:=*%@@@@@@@@@@@@@@%*=:.</text>
+        <text x="30" y="86">  -*@@@@@@@@@@@@@@@@@@@@@@*-</text>
+        <text x="30" y="104"> #@@@@@@@@  HARSH  @@@@@@@@#</text>
+        <text x="30" y="122"> #@@@@@@@@ SHARMA @@@@@@@@#</text>
+        <text x="30" y="140">  *@@@@@@@@@@@@@@@@@@@@@@*</text>
+        <text x="30" y="158">   .-*%@@@@@@@@@@@@@@%*-.</text>
+        <text x="30" y="176">      .:-=+*#%%#*+=-:.</text>
+        <text x="30" y="210">  > full_stack_dev.exe</text>
+        <text x="30" y="228">  > status: [ONLINE]</text>
+        <text x="30" y="246">  > building_things...</text>
+        <text x="30" y="264">  > _<tspan opacity="1"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+      </g>
+      <rect x="0" y="0" width="400" height="3" fill="url(#asciiGradL)" opacity="0.5">
+        <animate attributeName="y" values="0;487;0" dur="3.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- RIGHT PANEL -->
+    <g transform="translate(480,60)">
+      <rect width="650" height="490" rx="20" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)"/>
+      <circle cx="30" cy="30" r="6" fill="#EF4444"/>
+      <circle cx="52" cy="30" r="6" fill="#F59E0B"/>
+      <circle cx="74" cy="30" r="6" fill="#10B981"/>
+
+      <g font-family="Fira Code, monospace" fill="#0F172A">
+        <text x="30" y="80" font-size="20">Hi 👋</text>
+        <text x="30" y="112" font-size="26" font-weight="700">I'm Harsh Sharma</text>
+
+        <text x="30" y="150" font-size="16" fill="url(#accentL)">
+          <tspan>Frontend Engineer · Full Stack Developer</tspan>
+          <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
+        </text>
+
+        <text x="30" y="195" font-size="14" fill="#475569">📍 Meerut, Uttar Pradesh, India</text>
+        <text x="30" y="220" font-size="14" fill="#475569">🎓 B.Tech CSE, MIET — Batch of 2027</text>
+        <text x="30" y="245" font-size="14" fill="#475569">🎯 Full-Stack + AI-Integrated Apps</text>
+        <text x="30" y="270" font-size="14" fill="#475569">🌐 harshxyxo-portfolio.vercel.app</text>
+        <text x="30" y="295" font-size="14" fill="#475569">✉️ harshsharmarohta@gmail.com</text>
+
+        <text x="30" y="335" font-size="15" font-weight="700" fill="#0F172A">Skills</text>
+      </g>
+
+      <g font-family="Fira Code, monospace" font-size="12" fill="#0F172A">
+        <g transform="translate(30,355)">
+          <rect width="70" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">React</text>
+        </g>
+        <g transform="translate(110,355)">
+          <rect width="90" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">TypeScript</text>
+        </g>
+        <g transform="translate(210,355)">
+          <rect width="90" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">Node.js</text>
+        </g>
+        <g transform="translate(310,355)">
+          <rect width="100" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">Spring Boot</text>
+        </g>
+        <g transform="translate(30,393)">
+          <rect width="90" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">MongoDB</text>
+        </g>
+        <g transform="translate(130,393)">
+          <rect width="60" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">Java</text>
+        </g>
+        <g transform="translate(200,393)">
+          <rect width="90" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">Tailwind</text>
+        </g>
+        <g transform="translate(300,393)">
+          <rect width="70" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">Python</text>
+        </g>
+        <g transform="translate(30,431)">
+          <rect width="55" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">Git</text>
+        </g>
+        <g transform="translate(95,431)">
+          <rect width="70" height="28" rx="14" fill="rgba(37,99,235,0.08)" stroke="url(#accentL)"/>
+          <text x="15" y="18">Figma</text>
+        </g>
+      </g>
+
+      <g transform="translate(30,460)" font-family="Fira Code, monospace" font-size="13" fill="#475569">
+        <text x="0" y="0">GitHub</text>
+        <text x="70" y="0">LinkedIn</text>
+        <text x="150" y="0">Portfolio</text>
+      </g>
+    </g>
+  </g>
+</svg>
