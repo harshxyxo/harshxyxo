@@ -108,7 +108,7 @@ Built as a full end-to-end system spanning a Spring Boot backend, secure auth, A
 | **Deployment** | Frontend on Vercel · REST API on Render · CI/CD via GitHub-to-Vercel pipeline |
 | **Key Feature** | Custom "Guilt Score" algorithm analyzing 8+ spending categories for a real-time 0–100 financial health rating |
 | **Highlights** | Split-bills module with auto-generated UPI deep links (GPay/PhonePe), 21-Day No-Spend Challenge with streak tracking, Recharts-powered analytics dashboard |
-| **Repository** | [github.com/harshxyxo](https://github.com/harshxyxo) |
+| **Repository** | [github.com/harshxyxo](https://github.com/harshxyxo/PaisaTrack) |
 
 Full MERN-stack system architected solo from scratch, deployed with zero-downtime automatic redeployment on every push to main.
 
