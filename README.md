@@ -123,7 +123,7 @@ Full MERN-stack system architected solo from scratch, deployed with zero-downtim
 | **Stack** | HTML5, CSS3, Vanilla JavaScript, HTML5 Audio API |
 | **Highlights** | Zero-dependency player — play/pause, real-time seek bar, volume control, next/prev navigation |
 | **Engineering Focus** | Real-time playback sync via native `currentTime`/`duration` binding, fully responsive pure-Flexbox UI (no frameworks) |
-| **Repository** | [github.com/harshxyxo](https://github.com/harshxyxo) |
+| **Repository** | [github.com/harshxyxo](https://github.com/harshxyxo/music-app) |
 
 Demonstrates core JS/DOM fundamentals without relying on any external libraries.
 
